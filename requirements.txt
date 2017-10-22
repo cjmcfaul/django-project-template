@@ -1,3 +1,5 @@
+dj-database-url==0.4.2
 Django==1.11.6
 django-registration-redux==1.8
 pytz==2017.2
+waitress==1.1.0
