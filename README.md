@@ -6,3 +6,5 @@ $ django-admin startproject \
   --name=Procfile \
   --extension=py,md,env \
   project_name
+
+$ pip install -r requirements.txt -r requirements/dev.txt
