@@ -8,7 +8,7 @@ from django.contrib.auth.views import (
 )
 
 urlpatterns = [
-    url(r'^', include('{{ project_name}}_app.urls')),
+    url(r'^', include('myapp.urls')),
     url(r'^accounts/password/reset/$',
         password_reset,
         {'template_name':
