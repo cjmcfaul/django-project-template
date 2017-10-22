@@ -7,4 +7,4 @@ $ django-admin startproject \
   --extension=py,md,env \
   project_name
 
-$ pip install -r requirements.txt -r requirements/dev.txt
+$ pip install -r requirements.txt
