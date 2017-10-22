@@ -1,4 +1,5 @@
 import os
+from configurations import Configuration, values
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'registration',
-    '{{ project_name }}_app.apps.MyappConfig',
+    'myapp.apps.MyappConfig',
 ]
 
 MIDDLEWARE = [
@@ -109,5 +110,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = '{{project_name}}_app.User'
+AUTH_USER_MODEL = 'myapp.User'
 ACCOUNT_ACTIVATION_DAYS = 7
